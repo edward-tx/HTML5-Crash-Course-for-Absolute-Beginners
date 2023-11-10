@@ -12,7 +12,9 @@
     <!-- add a title element and your title will appear on the browswer tab -->
     <title>My Profile Page</title>
     <style>
-      <!-- CSS Styles go here -->
+      table, th, td {
+        border: 1px solid black;
+      }
     </style>
     <script>
       // JavaScript goes here
@@ -120,5 +122,67 @@
     -->
     <p>Lorem ipsum <div>div tag starts on a new line</div> consectetur adipisicing elit. Quo explicabo, magni modi libero sunt eos. Veniam quae, nisi, consequuntur eos porro, quam aliquid ullam est <span><b>span is inline</b></span> doloribus qui aliquam maiores cumque sed perspiciatis! Est, dolorem praesentium commodi quos, nesciunt blanditiis quas maxime numquam consectetur, vitae voluptatum reprehenderit quisquam hic?</p>
 
+    <hr />
+
+    <!-- Tables -->
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Edward</td>
+            <td>England</td>
+            <td>62</td>
+        </tr>
+        <tr>
+            <td>Dipesh</td>
+            <td>Malvia</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Sheldon</td>
+            <td>Cooper</td>
+            <td>29</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- table with 2 columns -->
+    <table>
+        <tr>
+            <th>Country</th>
+            <th colspan="2">Cities</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>Mumbai</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+            <td>Berlin</td>
+            <td>Frankfurt</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- table with rowspan -->
+    <table>
+        <tr>
+            <th>Country</th>
+            <td>India</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Cities</th>
+            <td>Mumbai</td>
+            <td>Berlin</td>
+        </tr>
+        <tr>
+            <td>Delhi</td>
+            <td>Frankfurt</td>
+        </tr>
+    </table>
   </body>
 </html>
